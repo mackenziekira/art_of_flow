@@ -4,14 +4,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-black">
-      <Image
-        className=""
-        src="/header.png"
-        alt="Art of Flow header"
-        width={1920}
-        height={480}
-        priority
-      />
       <div className="w-1/2 flex flex-col py-8 gap-y-4">
         <p className="text-white text-xl">The Art of Flow is a free public resource for creators, teachers, and supporters of the arts who are interested in flow arts and fire-dancing. The podcast is dedicated to conversations on the creative process to provide inspirations for your own movement arts and creativity journey. Explore how to connect to your body, mind, and soul by hearing conversations with flow artists and try out their suggestions yourself.
         </p>
