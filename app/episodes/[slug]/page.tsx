@@ -1,7 +1,6 @@
 import { EPISODES } from "@/app/episodes";
 import Image from "next/image";
-
-
+import AudioPlayer from "./AudioPlayer";
 
 export default function Page({ params }: { params: { slug: string, } }) {
     const episode = EPISODES[params.slug]
@@ -17,7 +16,8 @@ export default function Page({ params }: { params: { slug: string, } }) {
                 priority
             />
             <p className="text-white text-4xl pb-4">{episode.title}</p>
-            <p className="text-white text-xl whitespace-pre-line">{episode.description}</p>
+            <p className="text-white text-xl whitespace-pre-line pb-6">{episode.description}</p>
+            <AudioPlayer src={episode.audioSrc} />
         </div>
     </main>
 }
