@@ -11,7 +11,7 @@ export default function Page({ params }: { params: { slug: string, } }) {
             <AudioPlayer src={episode.audioSrc} />
             <div className="pb-10" />
             <Image
-                className="float-left pr-4 rounded-3xl"
+                className="float-left pr-4 pb-4 rounded-3xl"
                 src={episode.image}
                 alt="image"
                 width={356}

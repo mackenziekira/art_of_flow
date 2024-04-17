@@ -13,7 +13,7 @@ export default function Home() {
           This podcast was made possible by the artists who spared their time and energy to share thoughts on life, love, learning, and flow, and the wonderful monthly patrons who contributed funds to create the podcast and assist with distribution. Thank you!
         </p>
       </div>
-      <div className="flex flex-row gap-x-4">
+      <div className="flex flex-row gap-x-4 pt-8">
         <Link href="https://www.facebook.com/ArtOfFlowPodcast/" target="_blank">
           <Image
             className=""

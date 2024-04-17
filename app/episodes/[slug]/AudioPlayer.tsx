@@ -8,7 +8,6 @@ const AudioPlayer = ({ src }: { src: string }) => {
         src={src}
         customAdditionalControls={[]}
         style={{ borderRadius: "20px" }}
-        layout='horizontal'
     />
 }
 
