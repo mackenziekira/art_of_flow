@@ -8,7 +8,7 @@ export default function Page() {
     return <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-black">
         <div className="flex flex-wrap justify-center gap-6">
             {Object.values(EPISODES).map(episode => {
-                return <Link href={`/episodes/${episode.slug}`}>
+                return <Link href={`/episodes/${episode.slug}`} key={episode.episodeNumber}>
                     <div className="w-[356px] rounded-3xl border-yellow-500 border-2">
                         <Image
                             className="rounded-t-3xl"
