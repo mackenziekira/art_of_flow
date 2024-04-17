@@ -7,17 +7,18 @@ export default function Page({ params }: { params: { slug: string, } }) {
 
     return <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-black">
         <div className="w-1/2">
+            <p className="text-white text-4xl pb-8 text-center">{episode.title}</p>
+            <AudioPlayer src={episode.audioSrc} />
+            <div className="pb-10" />
             <Image
-                className="float-left pr-4 py-2"
+                className="float-left pr-4 rounded-3xl"
                 src={episode.image}
                 alt="image"
                 width={356}
                 height={200}
                 priority
             />
-            <p className="text-white text-4xl pb-4">{episode.title}</p>
-            <p className="text-white text-xl whitespace-pre-line pb-6">{episode.description}</p>
-            <AudioPlayer src={episode.audioSrc} />
+            <p className="text-white text-xl whitespace-pre-line">{episode.description}</p>
         </div>
     </main>
 }

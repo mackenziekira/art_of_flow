@@ -23,7 +23,7 @@ const Header = () => {
         priority
       />
     </Link>
-    <div className="flex flex-row justify-center bg-white gap-x-4">
+    <div className="flex flex-row justify-center bg-white gap-x-4 p-1 border-orange-500 border-y-2">
       <Link href="/"><p className="text-xl">About</p></Link>
       <Link href="/episodes"><p className="text-xl">Episodes </p></Link>
     </div>
