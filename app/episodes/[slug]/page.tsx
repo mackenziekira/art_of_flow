@@ -6,7 +6,7 @@ export default function Page({ params }: { params: { slug: string, } }) {
     const episode = EPISODES[params.slug]
 
     return <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-black">
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
             <p className="text-white text-4xl pb-8 text-center">{episode.title}</p>
             <AudioPlayer src={episode.audioSrc} />
             <div className="pb-10" />
