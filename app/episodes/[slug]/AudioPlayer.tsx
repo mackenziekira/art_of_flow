@@ -7,7 +7,9 @@ const AudioPlayer = ({ src }: { src: string }) => {
     return <Player
         src={src}
         customAdditionalControls={[]}
+        customVolumeControls={[]}
         style={{ borderRadius: "20px" }}
+        layout='horizontal'
     />
 }
 
