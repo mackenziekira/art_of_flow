@@ -18,7 +18,7 @@ export default function Page({ params }: { params: { slug: string, } }) {
                 height={200}
                 priority
             />
-            <p className="text-white text-xl whitespace-pre-line">{episode.description}</p>
+            <p className="text-white text-xl whitespace-pre-line" dangerouslySetInnerHTML={({ __html: episode.description })} />
         </div>
     </main>
 }
