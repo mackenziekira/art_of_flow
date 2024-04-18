@@ -72,7 +72,7 @@ Object.values(EPISODES).forEach(episode => {
             {
                 'itunes:image': {
                     _attr: {
-                        href: episode.image
+                        href: episode.imageSrc
                     }
                 }
             },

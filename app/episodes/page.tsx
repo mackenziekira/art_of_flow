@@ -12,7 +12,7 @@ export default function Page() {
                     <div className="w-[356px] rounded-3xl border-yellow-500 border-2">
                         <Image
                             className="rounded-t-3xl"
-                            src={episode.image}
+                            src={episode.imageSrc}
                             alt="image"
                             width={356}
                             height={200}
