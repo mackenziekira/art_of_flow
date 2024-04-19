@@ -509,6 +509,9 @@ export const EPISODES: Record<string, Episode> = {
         episodeNumber: 22,
         title: "Sacred Fire with Sage Jacote",
         shortTitle: "Sacred Fire",
+        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 22- Sacred Fire with Sage Jacote.mp3",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 22 Sacred Fire with Sage Jacote Widescreen.png",
+        intervieweeName: "Sage Jacote",
         description: `Dancing with fire and light for over 20 years, Sage Jacote has changed the flow arts world as we know it, by teaching, performing, and inspiring around the world. She is the Founder and Artists Director of Sangre Del Sol, the longest operating fire and LED troupe in Austin, Texas.
 
         She has also applied her skills in directing, producing, dancing, and choreographing for not only Sangre Del Sol but another Texas-based fire troop Solar Rain. With a background in Hip Hop, West African, Middle Eastern, Belly Dance, Tai Chi, and Salsa she likes to fuse these into her innovative fire and light tools and pyrotechnic effects to push the boundaries of modern dance performance.
@@ -534,9 +537,6 @@ export const EPISODES: Record<string, Episode> = {
         YouTube:
         [[https://www.youtube.com/user/SangreDelSol/featured]]
         [[https://www.youtube.com/channel/UCDv0GZ_218O573Xs_Q4T59w]]`,
-        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 22- Sacred Fire with Sage Jacote.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 22 Sacred Fire with Sage Jacote Widescreen.png",
-        intervieweeName: "Sage Jacote",
         links: {
             "https://www.sangredelsol.us": "https://www.sangredelsol.us/",
             "https://www.solarraintx.com": "https://www.solarraintx.com/",
@@ -555,6 +555,9 @@ export const EPISODES: Record<string, Episode> = {
         episodeNumber: 23,
         title: "Flow with your Business with Krystin Railing",
         shortTitle: "Flow with your Business",
+        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 23 USE VIDEO VERSION- Flow With Your Business with Krystin Railing.mp3",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 23 Flow with your Business with Krystin Railing.png",
+        intervieweeName: "Krystin Railing",
         description: `Krystin Railing is a classically trained dancer and a professionally trained circus performer and has performed across the United States and internationally as a professional juggler and hula hooper.
 
         Performing hula hoops since 2009, she has appeared at Seaport Village Buskers Festival, the Fringe Festival, The House of Blues, and on Norwegian Cruise Lines, among other venues. She has been featured on numerous news programs, late-night talk shows, magazines, newspapers, and blogs for her incredible skills.
@@ -569,9 +572,6 @@ export const EPISODES: Record<string, Episode> = {
         Instagram: [[https://www.instagram.com/theperformersguide]]
         Facebook: [[https://www.facebook.com/theperformersguide]]
         Website: [[https://krystinrailing.com/the-performers-guide]]`,
-        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 23 USE VIDEO VERSION- Flow With Your Business with Krystin Railing.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 23 Flow with your Business with Krystin Railing.png",
-        intervieweeName: "Krystin Railing",
         links: {
             "https://www.instagram.com/theperformersguide": "https://www.instagram.com/theperformersguide/",
             "https://www.facebook.com/theperformersguide": "https://www.facebook.com/theperformersguide",
@@ -583,6 +583,9 @@ export const EPISODES: Record<string, Episode> = {
         episodeNumber: 24,
         title: "Performance Perspectives with Liz Knights",
         shortTitle: "Performance Perspectives",
+        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 24 USE VIDEO VERSION- Performance Perspectives with Liz Knights.mp3",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 24 Performance Perspectives with Liz Knights Widescreen.jpg",
+        intervieweeName: "Liz Knights",
         description: `Liz Knights is an avid flow artist specializing in poi, buugeng and hooping.  She has taught at numerous flow festivals, organized the Ladies of Tech Poi collaboration series, and has recently been getting into teaching private online poi lessons.
 
         In non-pandemic-times, she runs a Boston-based entertainment company, Cirque de Light, specializing in fire, LED, and circus performance and is also a bookings manager for the Boston Circus Guild.  When she’s not busy spinning she can be found sewing sparkly costumes and doing her best to keep her two cats away from those sparkly costumes.
@@ -595,9 +598,6 @@ export const EPISODES: Record<string, Episode> = {
         [[https://www.facebook.com/BostonCircusGuild]]
         [[https://www.facebook.com/cirquedelight]]
         YouTube: [[https://www.youtube.com/channel/UCFWmabsoiuOWJ3Dmsx_MgtA]]`,
-        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 24 USE VIDEO VERSION- Performance Perspectives with Liz Knights.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 24 Performance Perspectives with Liz Knights Widescreen.jpg",
-        intervieweeName: "Liz Knights",
         links: {
             "https://www.cirquedelight.com": "https://www.cirquedelight.com/",
             "https://www.instagram.com/cirquedelight": "https://www.instagram.com/cirquedelight/?hl=en",
@@ -732,12 +732,12 @@ export const EPISODES: Record<string, Episode> = {
         episodeNumber: 29,
         title: "Making the Best Sticks with Glenn",
         shortTitle: "Making the Best Sticks",
-        description: `Glenn created the flower sticks we know today in 1987 by using the concept of flop to make tassels/fringes, and shared these designs with as many people as possible who were curious, making this innovation a part of the public domain! 
-
-        Listen to this episode about the time before: the best of sticks, flow arts was a name for prop manipulation and play with objects while in the flow state, and when innovation came out of breaking things.`,
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 29 USE VIDEO VERSION - Making the Best Sticks with Glenn.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 29 Making the Best Sticks with Glenn Widescreen.jpg",
         intervieweeName: "Glenn",
+        description: `Glenn created the flower sticks we know today in 1987 by using the concept of flop to make tassels/fringes, and shared these designs with as many people as possible who were curious, making this innovation a part of the public domain! 
+
+        Listen to this episode about the time before: the best of sticks, flow arts was a name for prop manipulation and play with objects while in the flow state, and when innovation came out of breaking things.`,
         links: {}
     },
     "30-dr-kate-riegle-van-west": {
@@ -745,6 +745,9 @@ export const EPISODES: Record<string, Episode> = {
         episodeNumber: 30,
         title: "Poi Health Benefits with Dr. Kate Riegle van West",
         shortTitle: "Poi Health Benefits",
+        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 30 USE VIDEO VERSION - Poi Health Benefits with Kate Riegle van West.mp3",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 30 Poi_s Health Benefits with Dr. Kate Riegle van West Widescreen.jpg",
+        intervieweeName: "Dr. Kate Riegle van West",
         description: `Learn about the health benefits of poi with Dr. Kate Riegle van West!
 
         Dr. Kate is a scientist, artist, and entrepreneur with a passion for play and wellbeing founded SpinPoi. Kate completed her PhD in the health benefits of poi at the University of Auckland, where she conducted the first study to scientifically investigate the effects of poi on physical and cognitive function. She was awarded the Future Leader Award from the Royal Society of New Zealand and the Best Doctoral Thesis Award for her work in the poi/health field. SpinPoi is a social enterprise dedicated to improving health and wellbeing through poi. SpinPoi supports individuals and organizations across the globe with evidence-based poi programs, specializing in improving quality of life for seniors, and has been featured across international media including BBC World News, ABC News, TVNZ 1 News, and Maori Television.
@@ -757,9 +760,6 @@ export const EPISODES: Record<string, Episode> = {
         YouTube: [[https://www.youtube.com/c/SpinPoi]]
         LinkedIn: [[https://www.linkedin.com/in/spinpoi]]
         Patreon: [[https://www.patreon.com/spinpoi]]`,
-        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 30 USE VIDEO VERSION - Poi Health Benefits with Kate Riegle van West.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 30 Poi_s Health Benefits with Dr. Kate Riegle van West Widescreen.jpg",
-        intervieweeName: "Dr. Kate Riegle van West",
         links: {
             "www.spinpoi.com": "https://www.spinpoi.com",
             "https://www.facebook.com/SpinPoi": "https://www.facebook.com/SpinPoi",
