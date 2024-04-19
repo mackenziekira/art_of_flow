@@ -5,8 +5,18 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-black">
       <div className="lg:w-1/2 flex flex-col gap-y-4">
-        <p className="text-white text-xl">The Art of Flow is a free public resource for creators, teachers, and supporters of the arts who are interested in flow arts and fire-dancing. The podcast is dedicated to conversations on the creative process to provide inspirations for your own movement arts and creativity journey. Explore how to connect to your body, mind, and soul by hearing conversations with flow artists and try out their suggestions yourself.
-        </p>
+        <div className="flex-row">
+          <Image
+            className="float-left pr-4"
+            src="/logo.png"
+            alt="logo"
+            width={200}
+            height={200}
+            priority
+          />
+          <p className="text-white text-xl">The Art of Flow is a free public resource for creators, teachers, and supporters of the arts who are interested in flow arts and fire-dancing. The podcast is dedicated to conversations on the creative process to provide inspirations for your own movement arts and creativity journey. Explore how to connect to your body, mind, and soul by hearing conversations with flow artists and try out their suggestions yourself.
+          </p>
+        </div>
         <p className="text-white text-xl">The Art of Flow was created by Morgan, a flow enthusiast, to share information about movement arts and flow arts, the history of fire-dancing and flow, and reflections on the creative process and self-care to the general public. Flow arts are defined as the use of objects/props to explore movement and self via repetitive practice of a series of movements, and are often a practice that assist individuals in accessing a “flow” state. Props often include poi, rope-dart, hoops, fans, puppy-hammer, contact ball, meteor, meteor dart, dragon staff, contact staff, clubs, buggeng, levi-wand, double staff, and anything that can be rolled, spun, and manipulated.
         </p>
         <p className="text-white text-xl">
