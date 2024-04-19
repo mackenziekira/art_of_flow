@@ -636,8 +636,7 @@ export const EPISODES: Record<string, Episode> = {
         date: "2024-04-17",
         title: "Inside Look at the Art of Flow with Morgan",
         shortTitle: "Inside Look at the Art of Flow",
-        // TODO where is audio?
-        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 24 USE VIDEO VERSION- Performance Perspectives with Liz Knights.mp3",
+        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode_25-_Inside_Look_at_AoF.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 25 An Inside Look at The Art of Flow with Morgan.png",
         intervieweeName: "Morgan Dolginow",
         description: `Learn about myself, the creator of the Art of Flow, as we take a deep dive into the history of the podcast, a look at why it exists, and contemplate where it is going!
@@ -680,8 +679,7 @@ export const EPISODES: Record<string, Episode> = {
         date: "2024-04-17",
         title: "Diversity, Equity, and Inclusion in the Flow Arts with Dallys Newton, Michalla Moss, and Vertel Jackson",
         shortTitle: "Diversity, Equity, and Inclusion in the Flow Arts",
-        // TODO where is audio?
-        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 26 USE VIDEO VERSION- Sacred Geometry with Samwise Clark.mp3",
+        audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/epiode_27-_Diversity_Equity_and_Inclusion_Art_of_Flow_Episode.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 27 Diversity, Equity, and Inclusion in the Flow Arts with Dallys Newton, Michalla Moss, and Vertel Jackson Widescreen.jpg",
         intervieweeName: "Dallys Newton, Michalla Moss, and Vertel Jackson",
         description: `Listen to a discussion between Dallys Newton, Michalla Moss, and Vertel Jackson, in which we discuss how to embrace more diversity, equity, and inclusion in the flow arts community! Each of these artists came together across different states and countries to discuss challenges the Flow Arts Community is facing, racism, sexism, ableism, and suggestions for how we can address these issues. Please keep reading to check out their bios, contact information, and community projects mentioned in the episode.
