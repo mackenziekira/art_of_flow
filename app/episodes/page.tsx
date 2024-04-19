@@ -21,7 +21,7 @@ export default function Page() {
                             style={{ maxHeight: 200 }}
                         />
                         <div className="p-4">
-                            <p className="text-white text-sm mb-2 line-clamp-1">{episode.date}</p>
+                            <p className="text-white text-sm mb-2 line-clamp-1">Episode {episode.episodeNumber}</p>
                             <p className="text-white text-3xl mb-1 line-clamp-1">{episode.shortTitle}</p>
                             <p className="text-white text-xl mb-3 line-clamp-1">{episode.intervieweeName}</p>
                             <p className="text-white text-l whitespace-pre-line line-clamp-3">{strip(episode.description)}</p>

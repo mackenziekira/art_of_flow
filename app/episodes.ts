@@ -1,7 +1,6 @@
 export type Episode = {
     slug: string
     episodeNumber: number
-    date: string
     title: string
     shortTitle: string
     description: string,
@@ -16,7 +15,6 @@ export const EPISODES: Record<string, Episode> = {
     "1-lane-lillaquist": {
         slug: "1-lane-lillaquist",
         episodeNumber: 1,
-        date: "2024-04-17",
         title: "Dolores Flow with Lane Lillaquist",
         shortTitle: "Dolores Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 1- Dolores Flow with Lane Lillaquist.mp3",
@@ -32,7 +30,6 @@ export const EPISODES: Record<string, Episode> = {
     "2-dyami-kaplan": {
         slug: "2-dyami-kaplan",
         episodeNumber: 2,
-        date: "2024-04-17",
         title: "Grow Flow with Dyami Kaplan",
         shortTitle: "Grow Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 2- GrowFlow with Dyami Kaplan.mp3",
@@ -54,7 +51,6 @@ export const EPISODES: Record<string, Episode> = {
     "3-duncan-roy-greenwood": {
         slug: "3-duncan-roy-greenwood",
         episodeNumber: 3,
-        date: "2024-04-17",
         title: "Learning Through Evolution with Duncan Roy Greenwood",
         shortTitle: "Learning Through Evolution",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 3- Learning Through Play.mp3",
@@ -77,7 +73,6 @@ export const EPISODES: Record<string, Episode> = {
     "4-rion-fish": {
         slug: "4-rion-fish",
         episodeNumber: 4,
-        date: "2024-04-17",
         title: "Buggeng is my Thang with Rion Fish",
         shortTitle: "Buggeng is my Thang",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 4 -Buggeng is my Thang.mp3",
@@ -104,7 +99,6 @@ export const EPISODES: Record<string, Episode> = {
     "5-tani-olhinoski": {
         slug: "5-tani-olhinoski",
         episodeNumber: 5,
-        date: "2024-04-17",
         title: "Self Development with Tani Olhinoski",
         shortTitle: "Self Development",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 5- Self Development.mp3",
@@ -126,7 +120,6 @@ export const EPISODES: Record<string, Episode> = {
     "6-ronan-mcloughlin": {
         slug: "6-ronan-mcloughlin",
         episodeNumber: 6,
-        date: "2024-04-17",
         title: "Awareness with Ronan McLoughlin",
         shortTitle: "Awareness",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 6 -Awareness with Ronan.mp3",
@@ -150,7 +143,6 @@ export const EPISODES: Record<string, Episode> = {
     "7-tyfoods": {
         slug: "7-tyfoods",
         episodeNumber: 7,
-        date: "2024-04-17",
         title: "Prop Dance Culture with Ty",
         shortTitle: "Prop Dance Culture",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 7 -Prop Dance Culture.mp3",
@@ -178,7 +170,6 @@ export const EPISODES: Record<string, Episode> = {
     "8-richard-hartnell": {
         slug: "8-richard-hartnell",
         episodeNumber: 8,
-        date: "2024-04-17",
         title: "Contact Ball with Richard Hartnell",
         shortTitle: "Contact Ball",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 8- Contact Ball with Richard Hartnell.mp3",
@@ -203,7 +194,6 @@ export const EPISODES: Record<string, Episode> = {
     "9-aileen-lawlor": {
         slug: "9-aileen-lawlor",
         episodeNumber: 9,
-        date: "2024-04-17",
         title: "Creating Collaborative Flow with Aileen Lawlor",
         shortTitle: "Creating Collaborative Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 9 - Creating Collaborative Flow.mp3",
@@ -230,7 +220,6 @@ export const EPISODES: Record<string, Episode> = {
     "10-troy-grisa": {
         slug: "10-troy-grisa",
         episodeNumber: 10,
-        date: "2024-04-17",
         title: "Performance with Troy Grisa",
         shortTitle: "Performance",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 10 - Performace with Troy Grisa.mp3",
@@ -253,7 +242,6 @@ export const EPISODES: Record<string, Episode> = {
     "11-xander-paris": {
         slug: "11-xander-paris",
         episodeNumber: 11,
-        date: "2024-04-17",
         title: "Life’s Purpose with Xander Paris",
         shortTitle: "Life’s Purpose",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 11 -Life_s Purpose with Xander Paris.mp3",
@@ -284,7 +272,6 @@ export const EPISODES: Record<string, Episode> = {
     "12-drexfactor": {
         slug: "12-drexfactor",
         episodeNumber: 12,
-        date: "2024-04-17",
         title: "What is Flow Arts? With DrexFactor",
         shortTitle: "What is Flow Arts?",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 12- What is Flow Arts with DrexFactor.mp3",
@@ -308,7 +295,6 @@ export const EPISODES: Record<string, Episode> = {
     "13-drexfactor": {
         slug: "13-drexfactor",
         episodeNumber: 13,
-        date: "2024-04-17",
         title: "Flow Cultural Identity with DrexFactor",
         shortTitle: "Flow Cultural Identity",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 13 - Changes in Flow Community with DrexFactor.mp3",
@@ -333,7 +319,6 @@ export const EPISODES: Record<string, Episode> = {
     "14-dresden-blue": {
         slug: "14-dresden-blue",
         episodeNumber: 14,
-        date: "2024-04-17",
         title: "Harm Reduction with Dresden Blue",
         shortTitle: "Harm Reduction",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 14- Harm Reduction with Dresden Blue.mp3",
@@ -359,7 +344,6 @@ export const EPISODES: Record<string, Episode> = {
     "16-jilly-bee": {
         slug: "16-jilly-bee",
         episodeNumber: 16,
-        date: "2024-04-17",
         title: "Online Communities- Flow, Circus, and Artists Conversations on Community and Creativity with Jilly Bee",
         shortTitle: "Online Communities",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 16- Virtual Communities-  Flow, Circus, and Artists Conversation on Community and Creativity with Jilly Bee.mp3",
@@ -382,7 +366,6 @@ export const EPISODES: Record<string, Episode> = {
     "17-creative-collaborations": {
         slug: "17-creative-collaborations",
         episodeNumber: 17,
-        date: "2024-04-17",
         title: "Creative Collaborations with Brittney Isphording, Kevin LeVezu, and Veronica Stein",
         shortTitle: "Creative Collaborations",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 17- Creative Collaborations with Brittney Isphording, Kevin LeVezu, Veronica Stein.mp3",
@@ -433,7 +416,6 @@ export const EPISODES: Record<string, Episode> = {
     "18-love-of-flow": {
         slug: "18-love-of-flow",
         episodeNumber: 18,
-        date: "2024-04-17",
         title: "For the Love of Flow",
         shortTitle: "For the Love of Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 18- For the Love of Flow.mp3",
@@ -453,7 +435,6 @@ export const EPISODES: Record<string, Episode> = {
     "19-shane-aronson": {
         slug: "19-shane-aronson",
         episodeNumber: 19,
-        date: "2024-04-17",
         title: "Orbit Design with Shane Aronson",
         shortTitle: "Orbit Design",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 19- Designing Orbits with Shane Aronson.mp3",
@@ -476,7 +457,6 @@ export const EPISODES: Record<string, Episode> = {
     "20-kevin-axtell": {
         slug: "20-kevin-axtell",
         episodeNumber: 20,
-        date: "2024-04-17",
         title: "Fire Magic with Kevin Axtell",
         shortTitle: "Fire Magic",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 20- Fire Magic with Kevin Axtell.mp3",
@@ -505,7 +485,6 @@ export const EPISODES: Record<string, Episode> = {
     "21-josie-mae": {
         slug: "21-josie-mae",
         episodeNumber: 21,
-        date: "2024-04-17",
         title: "Women in Juggling with Josie Mae",
         shortTitle: "Women in Juggling",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 21- Women in Juggling with Josie Mae.mp3",
@@ -528,7 +507,6 @@ export const EPISODES: Record<string, Episode> = {
     "22-sage-jacote": {
         slug: "22-sage-jacote",
         episodeNumber: 22,
-        date: "2024-04-17",
         title: "Sacred Fire with Sage Jacote",
         shortTitle: "Sacred Fire",
         description: `Dancing with fire and light for over 20 years, Sage Jacote has changed the flow arts world as we know it, by teaching, performing, and inspiring around the world. She is the Founder and Artists Director of Sangre Del Sol, the longest operating fire and LED troupe in Austin, Texas.
@@ -575,7 +553,6 @@ export const EPISODES: Record<string, Episode> = {
     "23-krystin-railing": {
         slug: "23-krystin-railing",
         episodeNumber: 23,
-        date: "2024-04-17",
         title: "Flow with your Business with Krystin Railing",
         shortTitle: "Flow with your Business",
         description: `Krystin Railing is a classically trained dancer and a professionally trained circus performer and has performed across the United States and internationally as a professional juggler and hula hooper.
@@ -604,7 +581,6 @@ export const EPISODES: Record<string, Episode> = {
     "24-liz-knights": {
         slug: "24-liz-knights",
         episodeNumber: 24,
-        date: "2024-04-17",
         title: "Performance Perspectives with Liz Knights",
         shortTitle: "Performance Perspectives",
         description: `Liz Knights is an avid flow artist specializing in poi, buugeng and hooping.  She has taught at numerous flow festivals, organized the Ladies of Tech Poi collaboration series, and has recently been getting into teaching private online poi lessons.
@@ -633,7 +609,6 @@ export const EPISODES: Record<string, Episode> = {
     "25-morgan-dolginow": {
         slug: "25-morgan-dolginow",
         episodeNumber: 25,
-        date: "2024-04-17",
         title: "Inside Look at the Art of Flow with Morgan",
         shortTitle: "Inside Look at the Art of Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode_25-_Inside_Look_at_AoF.mp3",
@@ -647,7 +622,6 @@ export const EPISODES: Record<string, Episode> = {
     "26-samwise": {
         slug: "26-samwise",
         episodeNumber: 26,
-        date: "2024-04-17",
         title: "Sacred Geometry with Samwise",
         shortTitle: "Sacred Geometry",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 26 USE VIDEO VERSION- Sacred Geometry with Samwise Clark.mp3",
@@ -676,7 +650,6 @@ export const EPISODES: Record<string, Episode> = {
     "27-diversity-equity-inclusion-flow-arts": {
         slug: "27-diversity-equity-inclusion-flow-arts",
         episodeNumber: 27,
-        date: "2024-04-17",
         title: "Diversity, Equity, and Inclusion in the Flow Arts with Dallys Newton, Michalla Moss, and Vertel Jackson",
         shortTitle: "Diversity, Equity, and Inclusion in the Flow Arts",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/epiode_27-_Diversity_Equity_and_Inclusion_Art_of_Flow_Episode.mp3",
@@ -731,7 +704,6 @@ export const EPISODES: Record<string, Episode> = {
     "28-srikanta-barefoot": {
         slug: "28-srikanta-barefoot",
         episodeNumber: 28,
-        date: "2024-04-17",
         title: "Full-Time Performance with Srikanta Barefoot",
         shortTitle: "Full-Time Performance",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 28 USE VIDEO VERSION - A Fire Artist_s Journey with Srikanta Barefoot.mp3",
@@ -758,7 +730,6 @@ export const EPISODES: Record<string, Episode> = {
     "29-glenn": {
         slug: "29-glenn",
         episodeNumber: 29,
-        date: "2024-04-17",
         title: "Making the Best Sticks with Glenn",
         shortTitle: "Making the Best Sticks",
         description: `Glenn created the flower sticks we know today in 1987 by using the concept of flop to make tassels/fringes, and shared these designs with as many people as possible who were curious, making this innovation a part of the public domain! 
@@ -772,7 +743,6 @@ export const EPISODES: Record<string, Episode> = {
     "30-dr-kate-riegle-van-west": {
         slug: "30-dr-kate-riegle-van-west",
         episodeNumber: 30,
-        date: "2024-04-17",
         title: "Poi Health Benefits with Dr. Kate Riegle van West",
         shortTitle: "Poi Health Benefits",
         description: `Learn about the health benefits of poi with Dr. Kate Riegle van West!
@@ -804,7 +774,6 @@ export const EPISODES: Record<string, Episode> = {
     "31-jeremiah-johnston": {
         slug: "31-jeremiah-johnston",
         episodeNumber: 31,
-        date: "2024-04-17",
         title: "Touring with Jeremiah Johnston",
         shortTitle: "Touring",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 31 USE VIDEO VERSION - Touring with Jeremiah Johnston.mp3",
@@ -832,7 +801,6 @@ export const EPISODES: Record<string, Episode> = {
     "32-chris-garcia": {
         slug: "32-chris-garcia",
         episodeNumber: 32,
-        date: "2024-04-17",
         title: "Diabolo with Chris Garcia",
         shortTitle: "Diabolo",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 32 USE VIDEO VERSION - Diabolo with Chris Garcia.mp3",
@@ -875,7 +843,6 @@ export const EPISODES: Record<string, Episode> = {
     "33-arlene-smith-bj-burg": {
         slug: "33-arlene-smith-bj-burg",
         episodeNumber: 33,
-        date: "2024-04-17",
         title: "Creating a Flow Arts Collective with Arlene Smith and BJ Burg",
         shortTitle: "Flow Arts Collective",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 33 USE VIDEO VERSION - Creating a Flow Arts Collective with Arlene Smith and BJ Burg.mp3",
@@ -906,7 +873,6 @@ export const EPISODES: Record<string, Episode> = {
     "34-mari-hercher": {
         slug: "34-mari-hercher",
         episodeNumber: 34,
-        date: "2024-04-17",
         title: "Taking the Stage with Mari Hercher",
         shortTitle: "Taking the Stage",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 34 USE VIDEO VERSION - Mari Hercher Taking The Stage.mp3",
@@ -932,7 +898,6 @@ export const EPISODES: Record<string, Episode> = {
     "35-bunny-holmes": {
         slug: "35-bunny-holmes",
         episodeNumber: 35,
-        date: "2024-04-17",
         title: "Rocky Horror Circus Show with Bunny Holmes",
         shortTitle: "Rocky Horror Circus Show",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 35 USE VIDEO VERSION - Rocky Horror Circus Show with Bunny Holmes.mp3",
@@ -955,7 +920,6 @@ export const EPISODES: Record<string, Episode> = {
     "36-vojta-stolbenko": {
         slug: "36-vojta-stolbenko",
         episodeNumber: 36,
-        date: "2024-04-17",
         title: "Flow Arts Community with Vojta Stolbenko",
         shortTitle: "Flow Arts Community",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 36 USE VIDEO VERSION - Flow Arts Community with Vojta Stolbenko.mp3",
@@ -982,7 +946,6 @@ export const EPISODES: Record<string, Episode> = {
     "37-otillia-ward": {
         slug: "37-otillia-ward",
         episodeNumber: 37,
-        date: "2024-04-17",
         title: "Healing with Flow Arts with Otillia Ward",
         shortTitle: "Healing with Flow Arts",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 37 USE VIDEO VERSION - Healing With Flow Arts with Otillia Ward.mp3",
@@ -1006,7 +969,6 @@ export const EPISODES: Record<string, Episode> = {
     "38-gabrielle-bonneville": {
         slug: "38-gabrielle-bonneville",
         episodeNumber: 38,
-        date: "2024-04-17",
         title: "Artist’s Residencies with Gabrielle Bonneville",
         shortTitle: "Artist’s Residencies",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 38 USE VIDEO VERSION - Artist_s Residencies with Gabrielle Bonneville.mp3",
