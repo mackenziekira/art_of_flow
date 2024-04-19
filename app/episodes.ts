@@ -3,9 +3,10 @@ export type Episode = {
     episodeNumber: number
     title: string
     shortTitle: string
-    description: string,
+    description: string
     audioSrc: string
     imageSrc: string
+    rssImageSrc: string
     intervieweeName: string
     links: Record<string, string>
 }
@@ -19,6 +20,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Dolores Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 1- Dolores Flow with Lane Lillaquist.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 1 DoloFlow with Lane Lillaquist Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 1 DoloFlow with Lane Lillaquist Widescreen.jpg",
         intervieweeName: "Lane Lillaquist",
         description: `Lane Lillaquist is on a mission to document and share flow arts. He is the founder of Dolores Flow, a weekly flow jam in Dolores Park, San Francisco. Poi is his favorite prop, and when not spinning things, he can be found with a camera in his hands. To see pictures and videos of Lane spinning and his photography, follow him on Instagram [[@lillq]]
 
@@ -34,6 +36,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Grow Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 2- GrowFlow with Dyami Kaplan.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 2 Grow Flow with Dyami Kaplan Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 2 Grow Flow with Dyami Kaplan.png",
         intervieweeName: "Dyami Kaplan",
         description: `Hear from Dyami Tivon Kaplan, about growing the flow arts, teaching, and the change in accessibility to flow arts and fire dancing with the rise of technology.
 
@@ -55,6 +58,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Learning Through Evolution",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 3- Learning Through Play.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 3 Evolution through Play with Duncan Roy Greenwood cover image.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 3 Evolution through Play with Duncan Roy Greenwood cover image.png",
         intervieweeName: "Duncan Roy Greenwood",
         description: `Join our conversation on prop construction, the flow state and hypofrontality, evolution through play, and philosophies on spreading the flow arts as I chat with Duncan Roy Greenwood. Duncan is a flow artist from Cape Town, South Africa, on a mission to promote and spread flow. He created Flow Arts Commune [[AfrikaBurn]], the South Africa equivalent of Fire Conclave at [[Burning Man Festival]] in the United States of America. He is the founder of [[Flow DNA]], an online flow arts prop retail shop. You can flow toys from Flow DNA on [[Etsy]] if you live outside of South Africa. An experienced animator, he recently created one for Flowtoys which you can watch [[here]].
 
@@ -77,6 +81,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Buggeng is my Thang",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 4 -Buggeng is my Thang.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 4 Buggeng is my Thang with Rion Fish Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 4 Buggeng is my Thang with Rion Fish.png",
         intervieweeName: "Rion Fish",
         description: `In this episode Rion Fish chats with us about the history and evolution of buggeng, reveals why buggeng is his thang, recounts the experience of a video going viral and the impact on performing, takes apart teaching philosophies, and shares tips on how to deal with the negative voices in your head.
 
@@ -103,6 +108,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Self Development",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 5- Self Development.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 5 Self Development with Tani Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 5 Self Development with Tani.png",
         intervieweeName: "Tani Olhinoski",
         description: `Tani Olhinoski is the founder of the [[Nexus Center]] in San Francisco, a space for conscious connection and movement exploration. She spins dragon staff, contact staff, fans and on occasion plushie fire darts. From a business background, with experience in the tech sector she delves into her dream to facilitate others journey of self-development, her own experiences at Burning Man, what it's like to start your own business from scratch, her approach to learning, and musings on art.
 
@@ -124,6 +130,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Awareness",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 6 -Awareness with Ronan.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 6 Awareness with Ronan Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 6 Awareness with Ronan cover image.png",
         intervieweeName: "Ronan McLoughlin",
         description: `Ronan McLoughlin is an innovative poi spinner who travels the world teaching and performing, is the originator of contact poi, has spoken on TEDx about Learning to Learn, and approaches the art from a love of learning optimization. Jump into a conversation with Ronan that explores the topic of awareness, going back to basics, his personal examinations of motivation for spinning and a frank look at the stories we create of others expectations.
 
@@ -147,6 +154,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Prop Dance Culture",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 7 -Prop Dance Culture.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 7 BLURRY- Prop Dance Culture with Ty Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 7 Prop Dance Culture with Tyfoods.png",
         intervieweeName: "Tyfoods",
         description: `Tyfoods is a Hip-Hop Poi Dancer, Movement Enthusiast and Neuroscience Graduate. He has been spinning poi for 6 years, and dancing for 3 years. In that time, he has developed a systematic approach that focuses on \"how to learn tricks/ movements\" rather than on the tricks/movements themselves. In an attempt to both share this systematic approach and create the ultimate resource for all movement artists he co-founded [[Prop Dance Culture]]!
 
@@ -174,6 +182,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Contact Ball",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 8- Contact Ball with Richard Hartnell.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 8 Contact Ball with Richard Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 8 Contact Ball with Richard Hartnell.png",
         intervieweeName: "Richard Hartnell",
         description: `In this episode, Richard Hartnell discusses the history of contact ball, how he got into juggling, his involvement in the Bellingham Circus Guild, his thoughts on artivsm and learning.
 
@@ -198,6 +207,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Creating Collaborative Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 9 - Creating Collaborative Flow.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 9 Creating Collaborative Flow with Aileen Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 9 Creating Collaborative Flow with Aileen Cover image.png",
         intervieweeName: "Aileen Lawlor",
         description: `Aileen Lawlor a world class contact spinner and teacher, sat down to share with listeners of the Art of Flow how she got into firedancing, discuss her work in Nicaragua teaching flow arts to at-risk-youth, and discus how choreography is a pictorial representation/lens into bigger themes in her life. 
 
@@ -224,6 +234,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Performance",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 10 - Performace with Troy Grisa.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 10 Performance with Troy Grisa Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 10 Performance with Troy Grisa cover image.jpg",
         intervieweeName: "Troy Grisa",
         description: `In this episode, listen to a conversation with Troy Grisa, a flow arts fanatic currently living in Portland, Oregon. Troy picked up spinning poi in college and has been going ever since, learning one or two new props each year. He took his art-form to a professional level working as a performer for 3 years in Florida at various events ranging from weddings to luaus, to birthdays and community events. Troy was a high school teacher for 4 years during which he incorporated flow arts into his lesson breaks! Now, you can find him working on his flow arts poetry and crafting a new flow arts blog as he serves the community with involvement, passion, and gusto.
 
@@ -246,6 +257,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Life’s Purpose",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 11 -Life_s Purpose with Xander Paris.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 11 Life_s Purpose with Xander Paris Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 11 Life_s Purpose with Xander Paris.png",
         intervieweeName: "Xander Paris",
         description: `Xander Paris is a rope dartist, poi spinner, triple section staff wielding, nun-chuck ninja who is a community builder and teacher from San Francisco, currently based out of Portland, Oregon. Xander's life passion is martial flow and performance arts. He grew up involved in martial arts at a Muay Thai gym, took years of dance classes and theater which sparked his interest in movement, rhythm, and performance. After discovering the art-forms of flow and object manipulation he has dedicated time and energy into spreading the flow arts, and combining different elements of object manipulation with dance, martial arts, and movement.
 
@@ -276,6 +288,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "What is Flow Arts?",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 12- What is Flow Arts with DrexFactor.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 12 What is Flow Arts with DrexFactor Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 12 What is Flow Arts with DrexFactor cover image.png",
         intervieweeName: "DrexFactor",
         description: `Ben 'Drex' Drexler is one of the most prolific and popular content creators in the flow arts. He is a world-renowned movement artist, dancer, and instructor who has spent the last 12 years teaching and performing the art of poi. His YouTube channel has more than six million views and more than 48,000 subscribers, and he has more than 20,000 followers on Instagram. He has taught at countless events on 3 continents, and his online tutorials have been a gateway for 10’s to 1000’s of people all over the world. He believes in the power of flow arts to improve fitness, build problem-solving skills, and as a tool for personal expression and hopes to bring the transformative power of flow to as wide an audience as possible. In the first part of a two-part interview, Drex discusses with us what the flow arts are, flow history, and how the community has changed over the years.
 
@@ -299,6 +312,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Flow Cultural Identity",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 13 - Changes in Flow Community with DrexFactor.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 13 Flow Cultural Identity with DrexFactor Widescreen Image.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 13 Flow Cultural Identity with DrexFactor.png",
         intervieweeName: "DrexFactor",
         description: `A continuation of our conversation with Ben Drexler 'DrexFactor', this episode includes discussions on how to discover our cultural identity as a flow community, some of DrexFactor's favorite artistic projects, and the story of how he became a prolific content creator.
 
@@ -323,6 +337,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Harm Reduction",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 14- Harm Reduction with Dresden Blue.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 14 Harm Reduction with Dresden Blue Widescreen image.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 14 Harm Reduction with Dresden Blue.png",
         intervieweeName: "Dresden Blue",
         description: `Harm reduction workshops are increasing in the festival scene, as well as in the fire and flow arts, as the value they add to communities and why they matter becomes recognized.
 
@@ -348,6 +363,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Online Communities",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 16- Virtual Communities-  Flow, Circus, and Artists Conversation on Community and Creativity with Jilly Bee.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 16 Online Community with Jilly Bee Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 16 Digital Community with Jilly Bee cover image.png",
         intervieweeName: "Jilly Bee",
         description: `Delve into a conversation on the history of flow arts, as Jilly Bee shares about her time involved in community and discusses the shift to virtual communities, explores challenges facing the community as we grow in number, reflects on giving and receiving feedback, and provides her insights into individual’s changing relationships with poi and other props over the years.
 
@@ -370,6 +386,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Creative Collaborations",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 17- Creative Collaborations with Brittney Isphording, Kevin LeVezu, Veronica Stein.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 17 Creative Collaborations with Brittany, Kevin, and Veronica Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 17 Creative Collaborations Cover Image.png",
         intervieweeName: "Brittney Isphording, Kevin LeVezu, and Veronica Stein",
         description: `When an artist from one background, such as movement arts, pairs up with an artist from another background such as body painting, and a third artist works to capture the collaboration via the art of photography what and how is the interacting art created? In this episode of the Art of Flow we are going to explore the collaborations that can occur with fire photography and the magic that can happen when multi-media artistic creations are made.
 
@@ -420,6 +437,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "For the Love of Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 18- For the Love of Flow.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 18 For the Love of Flow Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 18 For the Love of Flow Widescreen.png",
         intervieweeName: "Various artists",
         description: `Inspired by the month of February, so often associated with love, join in an episode that examines the love of flow! Compiled from all the interviews since the creation of the Art of Flow in 2018, jump into hearing individuals flow stories, what keeps folks spinning, why fire-dancing and flow arts is important in their lives. Ask yourself, what creative outlets do you have and what do they bring to your life?
 
@@ -439,6 +457,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Orbit Design",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 19- Designing Orbits with Shane Aronson.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 19 Orbit Design with Shane Aronson cover image.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 19 Orbit Design with Shane Aronson cover image.png",
         intervieweeName: "Shane Aronson",
         description: `Shane Aronson has been an orbiter for over 5 years, and founded Stoneorbits at 22 years old. He also has been designing orbits for about 4 years, is self taught and uses 3D printers, design, coding, and hand assembly to make his products! You can check out and order his designs on stoneorbits.com, and see pictures on his social media channels included in the show notes.
 
@@ -461,6 +480,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Fire Magic",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 20- Fire Magic with Kevin Axtell.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 20 Fire Magic with Kevin Axtell Cover Image.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 20 Fire Magic with Kevin Axtell Cover Image.png",
         intervieweeName: "Kevin Axtell",
         description: `Kevin Axtell is now in his 21st year of juggling, flow, and fire arts. His past and present credits include: Board Member at the International Jugglers Association, partner at the Flow Arts Institute, general manager of the FireDrums Festival, founder and director of Club Congress, co-founder of Club Motion Juggling and Club Fest, and co-founder and director of The Firewalking Center.
 
@@ -489,6 +509,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Women in Juggling",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 21- Women in Juggling with Josie Mae.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 21 Women in Juggling with Josie Mae Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 21 Women in Juggling with Josie Mae cover image.png",
         intervieweeName: "Josie Mae",
         description: `Josie Mae is a contemporary circus artist and social circus educator specializing in club juggling and manipulation. They are coordinator and coach with The Voice Project - a youth training company that uses circus as an inquiry for social justice and systemic oppression - an extension of The Circus Project’s Pathways programming. Her passion for this work utilizes community organization, trauma-informed practices, and a holistic and intersectional educational lens. They have served on the International Jugglers Association (IJA) board and is the current World Juggling Day program director. They’ve also gone on tour with Clowns Without Borders - USA.
 
@@ -511,6 +532,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Sacred Fire",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 22- Sacred Fire with Sage Jacote.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 22 Sacred Fire with Sage Jacote Widescreen.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 22 Sacred Fire with Sage Jacote Cover Image.png",
         intervieweeName: "Sage Jacote",
         description: `Dancing with fire and light for over 20 years, Sage Jacote has changed the flow arts world as we know it, by teaching, performing, and inspiring around the world. She is the Founder and Artists Director of Sangre Del Sol, the longest operating fire and LED troupe in Austin, Texas.
 
@@ -557,6 +579,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Flow with your Business",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 23 USE VIDEO VERSION- Flow With Your Business with Krystin Railing.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 23 Flow with your Business with Krystin Railing.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 23 Flow with your Business with Krystin Railing.png",
         intervieweeName: "Krystin Railing",
         description: `Krystin Railing is a classically trained dancer and a professionally trained circus performer and has performed across the United States and internationally as a professional juggler and hula hooper.
 
@@ -585,6 +608,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Performance Perspectives",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 24 USE VIDEO VERSION- Performance Perspectives with Liz Knights.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 24 Performance Perspectives with Liz Knights Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 24 Performance Perspectives with Liz Knights cover image.png",
         intervieweeName: "Liz Knights",
         description: `Liz Knights is an avid flow artist specializing in poi, buugeng and hooping.  She has taught at numerous flow festivals, organized the Ladies of Tech Poi collaboration series, and has recently been getting into teaching private online poi lessons.
 
@@ -613,6 +637,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Inside Look at the Art of Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode_25-_Inside_Look_at_AoF.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 25 An Inside Look at The Art of Flow with Morgan.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 25 An Inside Look at The Art of Flow with Morgan.png",
         intervieweeName: "Morgan Dolginow",
         description: `Learn about myself, the creator of the Art of Flow, as we take a deep dive into the history of the podcast, a look at why it exists, and contemplate where it is going!
 
@@ -626,6 +651,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Sacred Geometry",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 26 USE VIDEO VERSION- Sacred Geometry with Samwise Clark.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 26 Sacred Geometry with Samwise Clark.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 26 Sacred Geometry with Samwise Clark.png",
         intervieweeName: "Samwise",
         description: `Samwise is a Flow Artist, geometer (specialist in geometry- earth measurer) and prop smith going on 10 years. Years of wanderlust, had him crossing the United States dozens of times, equipping, teaching, and learning from the many flow artists across the country. He's finally settled down to call the Bay Area his home, living his dream of being a professional propsmith at the Flowtoys workshop.
 
@@ -654,6 +680,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Diversity, Equity, and Inclusion in the Flow Arts",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/epiode_27-_Diversity_Equity_and_Inclusion_Art_of_Flow_Episode.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 27 Diversity, Equity, and Inclusion in the Flow Arts with Dallys Newton, Michalla Moss, and Vertel Jackson Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 27 Diversity, Equity, and Inclusion in the Flow Arts with Dallys Newton, Michalla Moss, and Vertel Jackson Widescreen.jpg",
         intervieweeName: "Dallys Newton, Michalla Moss, and Vertel Jackson",
         description: `Listen to a discussion between Dallys Newton, Michalla Moss, and Vertel Jackson, in which we discuss how to embrace more diversity, equity, and inclusion in the flow arts community! Each of these artists came together across different states and countries to discuss challenges the Flow Arts Community is facing, racism, sexism, ableism, and suggestions for how we can address these issues. Please keep reading to check out their bios, contact information, and community projects mentioned in the episode.
 
@@ -708,6 +735,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Full-Time Performance",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 28 USE VIDEO VERSION - A Fire Artist_s Journey with Srikanta Barefoot.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 28 Full Time Performance with Srikanta Barefoot Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 28 Full Time Performance with Srikanta Barefoot.jpg",
         intervieweeName: "Srikanta Barefoot",
         description: `Srikanta Barefoot has a breadth of experience in Circus, Theater & Dance. He boasts an extensive performance history, including 3 years and over 700 shows as the Featured Fire Dancer, Fire Dance Coach & Lead Character for the Cirque du Soleil. Regarded as a leading figure in fire dance, Srikanta teaches workshops & retreats and has published an instructional video series on Dancing with the Fire Staff. He performs a variety of circus disciplines including cyr wheel, cube, clown, body percussion, boleadoras des percussion… and is ever in pursuit of his latest muse.
 
@@ -734,6 +762,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Making the Best Sticks",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 29 USE VIDEO VERSION - Making the Best Sticks with Glenn.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 29 Making the Best Sticks with Glenn Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 29 Making the Best Sticks with Glenn Cover Image.png",
         intervieweeName: "Glenn",
         description: `Glenn created the flower sticks we know today in 1987 by using the concept of flop to make tassels/fringes, and shared these designs with as many people as possible who were curious, making this innovation a part of the public domain! 
 
@@ -747,6 +776,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Poi Health Benefits",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 30 USE VIDEO VERSION - Poi Health Benefits with Kate Riegle van West.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 30 Poi_s Health Benefits with Dr. Kate Riegle van West Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 30 Poi_s Health Benefits with Dr. Kate Riegle van West.jpg",
         intervieweeName: "Dr. Kate Riegle van West",
         description: `Learn about the health benefits of poi with Dr. Kate Riegle van West!
 
@@ -778,6 +808,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Touring",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 31 USE VIDEO VERSION - Touring with Jeremiah Johnston.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 31 Touring with Jeremiah Johnston Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 31 Touring with Jeremiah Johnston cover image.jpg",
         intervieweeName: "Jeremiah Johnston",
         description: `Jeremiah Johnston juggles a lot, both literally and figuratively! Jeremiah has won the bronze medal at the 2009 International Jugglers’ Association's annual competition and returned in 2013 to win his second bronze medal in team juggling with his friends in Mountain Motion. He tours around the country at private events, fairs, and in performance halls with LEDs or fire, juggling balls, clubs, blocks, poi, diabolo, and more. An engaging and accomplished performer, he also teaches juggling to adults and kids alike.
 
@@ -805,6 +836,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Diabolo",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 32 USE VIDEO VERSION - Diabolo with Chris Garcia.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 32 Diabolo with Chris Garcia Widescreen image.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 32 Diabolo with Chris Garcia cover image.png",
         intervieweeName: "Chris Garcia",
         description: `Chris Garcia, aka Draco the Juggler, is a San Francisco Bay Area-born juggler. He found his passion for juggling beginning in 2003 in high school through the juggling club advised by well-known juggler and Japanese teacher Matt Hall. Chris likes to practice many forms of juggling and especially likes playing with the diabolo ('Chinese yoyo'). Through his juggling career, he's traveled to many different countries, performed at a wide variety of shows and events, and has also taught thousands of people to juggle. Outside of his juggling career, Chris is also a video game developer and coder, and finds the two separate careers have some interesting similarities through the art and psychology of play.
         
@@ -847,6 +879,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Flow Arts Collective",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 33 USE VIDEO VERSION - Creating a Flow Arts Collective with Arlene Smith and BJ Burg.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 33 Creating a Flow Arts Collective with Arlene and BJ Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 33 Creating a Flow Arts Collective with Arlene Smith and BJ Burg.png",
         intervieweeName: "Arlene Smith and BJ Burg",
         description: `In this episode, I chat with BJ Burg and Arlene Smith as we dive into discussing the creation of a Flow Arts Collective! Discover how this happened, what were the challenges, advice from the founders for folks wanting to create their own flow arts or art collective nonprofits, and much more.
 
@@ -877,6 +910,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Taking the Stage",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 34 USE VIDEO VERSION - Mari Hercher Taking The Stage.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 34 Taking the Stage with Mari Hercher cover image.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 34 Taking the Stage with Mari Hercher cover image.png",
         intervieweeName: "Mari Hercher",
         description: `Mari Hercher is a 26-year-old flow artist and doctor of physical therapy student. She is based in San Francisco but will be relocating back to her hometown of Los Angeles this spring to finish out her final rotation in school as well as dive headfirst into a new set of flow arts projects. Her first prop was rope dart, but she has since fallen in love with hooping, fans, and meteor dart. Mari has a profound appreciation for the capabilities of the human body and has a goal of facilitating healing by helping people understand their bodies through flow in its many forms.
 
@@ -902,6 +936,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Rocky Horror Circus Show",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 35 USE VIDEO VERSION - Rocky Horror Circus Show with Bunny Holmes.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 35 Rocky Horror Circus Show with Bunny Holmes.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 35 Rocky Horror Circus Show with Bunny Holmes.png",
         intervieweeName: "Bunny Holmes",
         description: `In this episode with Bunny Holmes, discover an inside look at the workings of a family-style circus troupe, The Vespertine Circus, and their latest production - The Rocky Horror Circus Show!
 
@@ -924,6 +959,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Flow Arts Community",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 36 USE VIDEO VERSION - Flow Arts Community with Vojta Stolbenko.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 36 Flow Arts Community with Vojta Stolbenko.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 36 Flow Arts Community with Vojta Stolbenko.png",
         intervieweeName: "Vojta Stolbenko",
         description: `Vojta is a flow artist, filmmaker, musician, and circus artist based in Prague. Professionally performing since 2008, Vojta has performed worldwide, both alone and in collaboration with groups such as Fusion Arts, Phoenix Fire Dancers, SuperCho Company, and the Mandalights company to name a few. Vojta has completed several artists and teaching residencies and creates visually stunning flow and performance videos for himself and clients, that evoke emotion and highlight movement in a dynamic way. Vojta is a dance instructor for poiretreat.com and has run 14 retreats! He is the main organizer of the Roztoč fest, a circus festival in Prague which is entering its 9th year. When he is not teaching, performing, or filming, he also drums and creates music!
 
@@ -950,6 +986,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Healing with Flow Arts",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 37 USE VIDEO VERSION - Healing With Flow Arts with Otillia Ward.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 37 Healing with Flow Arts with Otillia Widescreen.jpg",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 37 Healing with Flow Arts with Otillia Ward.jpg",
         intervieweeName: "Otillia Ward",
         description: `In this episode, Otillia Ward discusses healing with the flow arts, both physically and mentally.
         Otillia was born in South Africa and immigrated to the USA in 2004. She completed her Bachelors in San Francisco and discovered her love for hula hooping She believes flow arts is a joyful activity with health benefits both for the mind and body at any age. Otillia has been passionately hooping for a decade and wanted a recipe for success to elevate her practice and tap into the flow state. But she discovered a lot more about the universe, magic, and love. Otillia has taught and performed at various events, shows, and online in and around the Bay Area.
@@ -973,6 +1010,7 @@ export const EPISODES: Record<string, Episode> = {
         shortTitle: "Artist’s Residencies",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 38 USE VIDEO VERSION - Artist_s Residencies with Gabrielle Bonneville.mp3",
         imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 38 Artist_s Residencies with Gabrielle Bonneville.png",
+        rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 38 Artist_s Residencies with Gabrielle Bonneville.png",
         intervieweeName: "Gabrielle Bonneville",
         description: `In this episode with Gabrielle Bonneville, we discuss digital nomads and the global artist residencies of Momentom Collective.
 
