@@ -1,6 +1,7 @@
 import { EPISODES } from "@/app/episodes";
 import Image from "next/image";
 import Link from "next/link";
+import { strip } from "../strip";
 
 
 
@@ -23,7 +24,7 @@ export default function Page() {
                             <p className="text-white text-sm mb-2 line-clamp-1">{episode.date}</p>
                             <p className="text-white text-3xl mb-1 line-clamp-1">{episode.shortTitle}</p>
                             <p className="text-white text-xl mb-3 line-clamp-1">{episode.intervieweeName}</p>
-                            <p className="text-white text-l whitespace-pre-line line-clamp-3">{episode.description.replace(/<[^>]*>?/gm, '')}</p>
+                            <p className="text-white text-l whitespace-pre-line line-clamp-3">{strip(episode.description)}</p>
                         </div>
                     </div>
                 </Link>

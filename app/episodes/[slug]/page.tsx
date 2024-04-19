@@ -5,7 +5,6 @@ import { linkify } from "@/app/linkify";
 
 export default function Page({ params }: { params: { slug: string, } }) {
     const episode = EPISODES[params.slug]
-    const descriptionHtml = linkify(episode.description, episode.links)
 
     return <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-black">
         <div className="lg:w-1/2">
@@ -20,7 +19,10 @@ export default function Page({ params }: { params: { slug: string, } }) {
                 height={200}
                 priority
             />
-            <p className="text-white text-xl whitespace-pre-line" dangerouslySetInnerHTML={({ __html: descriptionHtml })} />
+            <p className="text-white text-xl whitespace-pre-line"
+                dangerouslySetInnerHTML={({
+                    __html: linkify(episode.description, episode.links)
+                })} />
         </div>
     </main>
 }
