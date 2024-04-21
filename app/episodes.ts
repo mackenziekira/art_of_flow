@@ -57,7 +57,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Learning Through Evolution with Duncan Roy Greenwood",
         shortTitle: "Learning Through Evolution",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 3- Learning Through Play.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 3 Evolution through Play with Duncan Roy Greenwood cover image.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 3- Duncan Widescreen.png",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 3 Evolution through Play with Duncan Roy Greenwood cover image.png",
         intervieweeName: "Duncan Roy Greenwood",
         description: `Join our conversation on prop construction, the flow state and hypofrontality, evolution through play, and philosophies on spreading the flow arts as I chat with Duncan Roy Greenwood. Duncan is a flow artist from Cape Town, South Africa, on a mission to promote and spread flow. He created Flow Arts Commune [[AfrikaBurn]], the South Africa equivalent of Fire Conclave at [[Burning Man Festival]] in the United States of America. He is the founder of [[Flow DNA]], an online flow arts prop retail shop. You can flow toys from Flow DNA on [[Etsy]] if you live outside of South Africa. An experienced animator, he recently created one for Flowtoys which you can watch [[here]].
@@ -153,7 +153,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Prop Dance Culture with Ty",
         shortTitle: "Prop Dance Culture",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 7 -Prop Dance Culture.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 7 BLURRY- Prop Dance Culture with Ty Widescreen.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 7- Ty Widescreen.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 7 Prop Dance Culture with Tyfoods.png",
         intervieweeName: "Tyfoods",
         description: `Tyfoods is a Hip-Hop Poi Dancer, Movement Enthusiast and Neuroscience Graduate. He has been spinning poi for 6 years, and dancing for 3 years. In that time, he has developed a systematic approach that focuses on \"how to learn tricks/ movements\" rather than on the tricks/movements themselves. In an attempt to both share this systematic approach and create the ultimate resource for all movement artists he co-founded [[Prop Dance Culture]]!
@@ -233,7 +233,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Performance with Troy Grisa",
         shortTitle: "Performance",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 10 - Performace with Troy Grisa.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 10 Performance with Troy Grisa Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 9- Troy Widescreen.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 10 Performance with Troy Grisa cover image.jpg",
         intervieweeName: "Troy Grisa",
         description: `In this episode, listen to a conversation with Troy Grisa, a flow arts fanatic currently living in Portland, Oregon. Troy picked up spinning poi in college and has been going ever since, learning one or two new props each year. He took his art-form to a professional level working as a performer for 3 years in Florida at various events ranging from weddings to luaus, to birthdays and community events. Troy was a high school teacher for 4 years during which he incorporated flow arts into his lesson breaks! Now, you can find him working on his flow arts poetry and crafting a new flow arts blog as he serves the community with involvement, passion, and gusto.
@@ -256,7 +256,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Life’s Purpose with Xander Paris",
         shortTitle: "Life’s Purpose",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 11 -Life_s Purpose with Xander Paris.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 11 Life_s Purpose with Xander Paris Widescreen.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 11- Xander Widescreen.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 11 Life_s Purpose with Xander Paris.png",
         intervieweeName: "Xander Paris",
         description: `Xander Paris is a rope dartist, poi spinner, triple section staff wielding, nun-chuck ninja who is a community builder and teacher from San Francisco, currently based out of Portland, Oregon. Xander's life passion is martial flow and performance arts. He grew up involved in martial arts at a Muay Thai gym, took years of dance classes and theater which sparked his interest in movement, rhythm, and performance. After discovering the art-forms of flow and object manipulation he has dedicated time and energy into spreading the flow arts, and combining different elements of object manipulation with dance, martial arts, and movement.
