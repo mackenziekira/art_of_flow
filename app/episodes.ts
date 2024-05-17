@@ -256,7 +256,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Life’s Purpose with Xander Paris",
         shortTitle: "Life’s Purpose",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 11 -Life_s Purpose with Xander Paris.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 11- Xander Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 11 Zander Widescreen.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 11 Life_s Purpose with Xander Paris.png",
         intervieweeName: "Xander Paris",
         description: `Xander Paris is a rope dartist, poi spinner, triple section staff wielding, nun-chuck ninja who is a community builder and teacher from San Francisco, currently based out of Portland, Oregon. Xander's life passion is martial flow and performance arts. He grew up involved in martial arts at a Muay Thai gym, took years of dance classes and theater which sparked his interest in movement, rhythm, and performance. After discovering the art-forms of flow and object manipulation he has dedicated time and energy into spreading the flow arts, and combining different elements of object manipulation with dance, martial arts, and movement.
@@ -362,7 +362,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Online Communities- Flow, Circus, and Artists Conversations on Community and Creativity with Jilly Bee",
         shortTitle: "Online Communities",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 16- Virtual Communities-  Flow, Circus, and Artists Conversation on Community and Creativity with Jilly Bee.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 16 Online Community with Jilly Bee Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 16 Jilly Bee Online Communities.png",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 16 Digital Community with Jilly Bee cover image.png",
         intervieweeName: "Jilly Bee",
         description: `Delve into a conversation on the history of flow arts, as Jilly Bee shares about her time involved in community and discusses the shift to virtual communities, explores challenges facing the community as we grow in number, reflects on giving and receiving feedback, and provides her insights into individual’s changing relationships with poi and other props over the years.
@@ -456,7 +456,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Orbit Design with Shane Aronson",
         shortTitle: "Orbit Design",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 19- Designing Orbits with Shane Aronson.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 19 Orbit Design with Shane Aronson cover image.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 19- Shane Aronson.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 19 Orbit Design with Shane Aronson cover image.png",
         intervieweeName: "Shane Aronson",
         description: `Shane Aronson has been an orbiter for over 5 years, and founded Stoneorbits at 22 years old. He also has been designing orbits for about 4 years, is self taught and uses 3D printers, design, coding, and hand assembly to make his products! You can check out and order his designs on stoneorbits.com, and see pictures on his social media channels included in the show notes.
@@ -479,7 +479,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Fire Magic with Kevin Axtell",
         shortTitle: "Fire Magic",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 20- Fire Magic with Kevin Axtell.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 20 Fire Magic with Kevin Axtell Cover Image.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 20- Fire Magic.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 20 Fire Magic with Kevin Axtell Cover Image.png",
         intervieweeName: "Kevin Axtell",
         description: `Kevin Axtell is now in his 21st year of juggling, flow, and fire arts. His past and present credits include: Board Member at the International Jugglers Association, partner at the Flow Arts Institute, general manager of the FireDrums Festival, founder and director of Club Congress, co-founder of Club Motion Juggling and Club Fest, and co-founder and director of The Firewalking Center.
@@ -508,7 +508,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Women in Juggling with Josie Mae",
         shortTitle: "Women in Juggling",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 21- Women in Juggling with Josie Mae.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 21 Women in Juggling with Josie Mae Widescreen.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 21- Women in Juggling.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 21 Women in Juggling with Josie Mae cover image.png",
         intervieweeName: "Josie Mae",
         description: `Josie Mae is a contemporary circus artist and social circus educator specializing in club juggling and manipulation. They are coordinator and coach with The Voice Project - a youth training company that uses circus as an inquiry for social justice and systemic oppression - an extension of The Circus Project’s Pathways programming. Her passion for this work utilizes community organization, trauma-informed practices, and a holistic and intersectional educational lens. They have served on the International Jugglers Association (IJA) board and is the current World Juggling Day program director. They’ve also gone on tour with Clowns Without Borders - USA.
@@ -531,7 +531,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Sacred Fire with Sage Jacote",
         shortTitle: "Sacred Fire",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 22- Sacred Fire with Sage Jacote.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 22 Sacred Fire with Sage Jacote Widescreen.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 22- Sacred Fire.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 22 Sacred Fire with Sage Jacote Cover Image.png",
         intervieweeName: "Sage Jacote",
         description: `Dancing with fire and light for over 20 years, Sage Jacote has changed the flow arts world as we know it, by teaching, performing, and inspiring around the world. She is the Founder and Artists Director of Sangre Del Sol, the longest operating fire and LED troupe in Austin, Texas.
@@ -578,7 +578,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Flow with your Business with Krystin Railing",
         shortTitle: "Flow with your Business",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 23 USE VIDEO VERSION- Flow With Your Business with Krystin Railing.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 23 Flow with your Business with Krystin Railing.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 23- Flow with your business.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 23 Flow with your Business with Krystin Railing.png",
         intervieweeName: "Krystin Railing",
         description: `Krystin Railing is a classically trained dancer and a professionally trained circus performer and has performed across the United States and internationally as a professional juggler and hula hooper.
@@ -607,7 +607,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Performance Perspectives with Liz Knights",
         shortTitle: "Performance Perspectives",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 24 USE VIDEO VERSION- Performance Perspectives with Liz Knights.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 24 Performance Perspectives with Liz Knights Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 24- Performance Perspectives.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 24 Performance Perspectives with Liz Knights cover image.png",
         intervieweeName: "Liz Knights",
         description: `Liz Knights is an avid flow artist specializing in poi, buugeng and hooping.  She has taught at numerous flow festivals, organized the Ladies of Tech Poi collaboration series, and has recently been getting into teaching private online poi lessons.
@@ -636,7 +636,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Inside Look at the Art of Flow with Morgan",
         shortTitle: "Inside Look at the Art of Flow",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode_25-_Inside_Look_at_AoF.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 25 An Inside Look at The Art of Flow with Morgan.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 25 -Inside Look at the art of flow.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 25 An Inside Look at The Art of Flow with Morgan.png",
         intervieweeName: "Morgan Dolginow",
         description: `Learn about myself, the creator of the Art of Flow, as we take a deep dive into the history of the podcast, a look at why it exists, and contemplate where it is going!
@@ -650,7 +650,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Sacred Geometry with Samwise",
         shortTitle: "Sacred Geometry",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 26 USE VIDEO VERSION- Sacred Geometry with Samwise Clark.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 26 Sacred Geometry with Samwise Clark.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 26 Sacred Geometry.png",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 26 Sacred Geometry with Samwise Clark.png",
         intervieweeName: "Samwise",
         description: `Samwise is a Flow Artist, geometer (specialist in geometry- earth measurer) and prop smith going on 10 years. Years of wanderlust, had him crossing the United States dozens of times, equipping, teaching, and learning from the many flow artists across the country. He's finally settled down to call the Bay Area his home, living his dream of being a professional propsmith at the Flowtoys workshop.
@@ -761,7 +761,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Making the Best Sticks with Glenn",
         shortTitle: "Making the Best Sticks",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 29 USE VIDEO VERSION - Making the Best Sticks with Glenn.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 29 Making the Best Sticks with Glenn Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 29 The Best Sticks.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 29 Making the Best Sticks with Glenn Cover Image.png",
         intervieweeName: "Glenn",
         description: `Glenn created the flower sticks we know today in 1987 by using the concept of flop to make tassels/fringes, and shared these designs with as many people as possible who were curious, making this innovation a part of the public domain! 
@@ -775,7 +775,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Poi Health Benefits with Dr. Kate Riegle van West",
         shortTitle: "Poi Health Benefits",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 30 USE VIDEO VERSION - Poi Health Benefits with Kate Riegle van West.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 30 Poi_s Health Benefits with Dr. Kate Riegle van West Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 30 Poi_s Health Benefits .jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 30 Poi_s Health Benefits with Dr. Kate Riegle van West.jpg",
         intervieweeName: "Dr. Kate Riegle van West",
         description: `Learn about the health benefits of poi with Dr. Kate Riegle van West!
@@ -807,7 +807,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Touring with Jeremiah Johnston",
         shortTitle: "Touring",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 31 USE VIDEO VERSION - Touring with Jeremiah Johnston.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 31 Touring with Jeremiah Johnston Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 31 Jeremiah Johnston on Touring .png",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 31 Touring with Jeremiah Johnston cover image.jpg",
         intervieweeName: "Jeremiah Johnston",
         description: `Jeremiah Johnston juggles a lot, both literally and figuratively! Jeremiah has won the bronze medal at the 2009 International Jugglers’ Association's annual competition and returned in 2013 to win his second bronze medal in team juggling with his friends in Mountain Motion. He tours around the country at private events, fairs, and in performance halls with LEDs or fire, juggling balls, clubs, blocks, poi, diabolo, and more. An engaging and accomplished performer, he also teaches juggling to adults and kids alike.
@@ -909,7 +909,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Taking the Stage with Mari Hercher",
         shortTitle: "Taking the Stage",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 34 USE VIDEO VERSION - Mari Hercher Taking The Stage.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 34 Taking the Stage with Mari Hercher cover image.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 34 Mari Hercher on Taking the Stage.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 34 Taking the Stage with Mari Hercher cover image.png",
         intervieweeName: "Mari Hercher",
         description: `Mari Hercher is a 26-year-old flow artist and doctor of physical therapy student. She is based in San Francisco but will be relocating back to her hometown of Los Angeles this spring to finish out her final rotation in school as well as dive headfirst into a new set of flow arts projects. Her first prop was rope dart, but she has since fallen in love with hooping, fans, and meteor dart. Mari has a profound appreciation for the capabilities of the human body and has a goal of facilitating healing by helping people understand their bodies through flow in its many forms.
@@ -935,7 +935,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Rocky Horror Circus Show with Bunny Holmes",
         shortTitle: "Rocky Horror Circus Show",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 35 USE VIDEO VERSION - Rocky Horror Circus Show with Bunny Holmes.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 35 Rocky Horror Circus Show with Bunny Holmes.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 35- Rocky Horror Circus Show- Bunny Holmes.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 35 Rocky Horror Circus Show with Bunny Holmes.png",
         intervieweeName: "Bunny Holmes",
         description: `In this episode with Bunny Holmes, discover an inside look at the workings of a family-style circus troupe, The Vespertine Circus, and their latest production - The Rocky Horror Circus Show!
@@ -958,7 +958,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Flow Arts Community with Vojta Stolbenko",
         shortTitle: "Flow Arts Community",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 36 USE VIDEO VERSION - Flow Arts Community with Vojta Stolbenko.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 36 Flow Arts Community with Vojta Stolbenko.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 36- voltja stolbenko- flow arts community.jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 36 Flow Arts Community with Vojta Stolbenko.png",
         intervieweeName: "Vojta Stolbenko",
         description: `Vojta is a flow artist, filmmaker, musician, and circus artist based in Prague. Professionally performing since 2008, Vojta has performed worldwide, both alone and in collaboration with groups such as Fusion Arts, Phoenix Fire Dancers, SuperCho Company, and the Mandalights company to name a few. Vojta has completed several artists and teaching residencies and creates visually stunning flow and performance videos for himself and clients, that evoke emotion and highlight movement in a dynamic way. Vojta is a dance instructor for poiretreat.com and has run 14 retreats! He is the main organizer of the Roztoč fest, a circus festival in Prague which is entering its 9th year. When he is not teaching, performing, or filming, he also drums and creates music!
@@ -985,7 +985,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Healing with Flow Arts with Otillia Ward",
         shortTitle: "Healing with Flow Arts",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 37 USE VIDEO VERSION - Healing With Flow Arts with Otillia Ward.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 37 Healing with Flow Arts with Otillia Widescreen.jpg",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 37 Healing with Flow Arts with Otillia.png",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 37 Healing with Flow Arts with Otillia Ward.jpg",
         intervieweeName: "Otillia Ward",
         description: `In this episode, Otillia Ward discusses healing with the flow arts, both physically and mentally.
@@ -1009,7 +1009,7 @@ export const EPISODES: Record<string, Episode> = {
         title: "Artist’s Residencies with Gabrielle Bonneville",
         shortTitle: "Artist’s Residencies",
         audioSrc: "https://artofflow.s3.us-west-2.amazonaws.com/audio/Episode 38 USE VIDEO VERSION - Artist_s Residencies with Gabrielle Bonneville.mp3",
-        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 38 Artist_s Residencies with Gabrielle Bonneville.png",
+        imageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Episode 38- Gabrielle Bonneville on Arts Residencies .jpg",
         rssImageSrc: "https://artofflow.s3.us-west-2.amazonaws.com/artwork/Ep 38 Artist_s Residencies with Gabrielle Bonneville.png",
         intervieweeName: "Gabrielle Bonneville",
         description: `In this episode with Gabrielle Bonneville, we discuss digital nomads and the global artist residencies of Momentom Collective.
