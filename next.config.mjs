@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'artofflow.s3.us-west-2.amazonaws.com',
+                hostname: 'd1hueca0818e4l.cloudfront.net',
                 port: '',
                 pathname: '/artwork/**',
             },
